@@ -1,0 +1,39 @@
+{
+  "name": "express-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "mocha --require test/setup.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "postgrator --config postgrator-config.js",
+    "migrate:production": "env SSL=true DATABASE_URL=postgres://rpnbgueygviigm:627c7e66fe0ad1086d6682627df432b5e62606d28d797079f863b8756e88d625@ec2-34-235-108-68.compute-1.amazonaws.com:5432/damorfq8bsoetf npm run migrate",
+    "start": "node src/server.js",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "10.17.0"
+  },
+  "author": "Tom `tomatao` HT <tomht@thinkful.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.0",
+    "knex": "^0.20.8",
+    "morgan": "^1.9.1",
+    "pg": "^7.8.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "postgrator-cli": "^3.1.0",
+    "supertest": "^3.3.0"
+  }
+}
