@@ -1,4 +1,5 @@
-# Spaced Repetition Capstone
+# Maori in Motion 
+Spaced Repetition Capstone
 Built by Calvin Rosehart and Maggie McClellan
 
 Learn a new language using the spaced repetition technique! Remember studying using flash cards? You may have followed a pattern like this: get a word right and move its flashcard to the middle or back of the stack; get a word wrong and move it back by just a few cards, so as to come across the word again before too long. That's spaced repetition, and that's essentially how our app is going to teach you some basic Maori words!
@@ -9,9 +10,9 @@ Beyond the dashboard, users encounter one word at a time, flashcard-style. Upon 
 
 
 ## Visit Maori in Motion
-[Live app](https://spaced-repetition-theta.now.sh/ "Spaced Repetition")
+[Live app](https://maori-in-motion.now.sh "Maori in Motion")
 
-[GitHub repository (client)](https://github.com/thinkful-ei-iguana/calvin-maggie-capstone-client "Spaced Repetition client repo")
+[GitHub repository (client)](https://github.com/therealmbittarelli/Maori-in-Motion-client "Maori in Motion client repo")
 
 ## Technology used
 
@@ -31,4 +32,4 @@ Beyond the dashboard, users encounter one word at a time, flashcard-style. Upon 
 
 ## Screenshots
 
-![Image - spaced repetition dashboard](https://i.gyazo.com/f25d98350604971cfa2d53f8ab840e05.png)
+![Image - Maori in Motion dashboard](https://i.gyazo.com/f25d98350604971cfa2d53f8ab840e05.png)
